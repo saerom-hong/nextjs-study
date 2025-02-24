@@ -36,7 +36,7 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={montserrat.className}>
-      <body>
+      <body className="bg-slate-100">
         <header>
           <nav>
             <ul className="flex items-center justify-end p-4 gap-8">
@@ -53,7 +53,7 @@ export default function RootLayout({
             </ul>
           </nav>
         </header>
-        {children}
+        <div className="px-64">{children}</div>
       </body>
     </html>
   );

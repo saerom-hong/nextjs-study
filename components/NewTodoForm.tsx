@@ -9,7 +9,7 @@ const NewTodoForm = () => {
           type="text"
           className="border border-black/25 p-2"
         />
-        <button className="bg-pink-500 p-2 ml-2 rounded-lg" type="submit">
+        <button className="bg-pink-500 py-2 px-4 ml-2 rounded-lg" type="submit">
           Add
         </button>
       </form>

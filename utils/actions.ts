@@ -12,7 +12,7 @@ export const completeTodo = async (id: string) => {
 };
 
 export const newTodo = async (data: FormData) => {
-  const newTodo = data.get('todo') as string
+  const newTodo = data.get('content') as string
 
   if (newTodo) {
     await db.todo.create({
