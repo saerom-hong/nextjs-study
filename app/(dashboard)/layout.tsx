@@ -2,8 +2,8 @@ import NewTodoForm from '@/components/NewTodoForm';
 
 const DashboardLayout = ({ children }) => {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className="flex flex-col min-h-screen px-64">
+      <h1 className="font-bold my-8 text-2xl">My Todos</h1>
       <div>
         <NewTodoForm />
       </div>

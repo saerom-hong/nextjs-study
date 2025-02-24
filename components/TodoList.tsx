@@ -2,7 +2,7 @@ import Todo from './Todo';
 
 const TodoList = ({ todos }) => {
   return (
-    <div>
+    <div className="my-8">
       {todos.map((todo) => (
         <Todo todo={todo} key={todo.id} />
       ))}

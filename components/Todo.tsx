@@ -8,7 +8,7 @@ const Todo = ({ todo }) => {
 
   return (
     <div
-      className={`border border-black/20 cursor-pointer ${
+      className={`border border-black/20 cursor-pointer px-4 py-2 my-2 flex justify-between ${
         todo.completed ? 'line-through text-gray-900' : ''
       }`}
       onClick={() => startTransition(() => completeTodo(todo.id))}

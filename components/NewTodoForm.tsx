@@ -4,8 +4,14 @@ const NewTodoForm = () => {
   return (
     <div>
       <form action={newTodo}>
-        <input name="content" type="text" className="border border-black/25" />
-        <button type="submit">Add Todo</button>
+        <input
+          name="content"
+          type="text"
+          className="border border-black/25 p-2"
+        />
+        <button className="bg-pink-500 p-2 ml-2 rounded-lg" type="submit">
+          Add
+        </button>
       </form>
     </div>
   );
