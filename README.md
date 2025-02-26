@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Self-learning Next.js
+
+This is a simple todo app created in Next.js, bootstrapped with `create-next-app`. I followed [**Introduction to Next.js, v3**](https://frontendmasters.com/courses/next-js-v3/) by Scott Moss on Frontend Masters and added a personal touch with custom CSS.
+
+<br />
+
+## 🧰 Technologies Used
+
+- **Next.js** - React framework for server-side rendering and static site generation
+- **React** - JavaScript library for building Component-based UI
+- **TypeScript** - A strongly typed programming language that builds on JavaScript
+- **TailwindCSS** - A utility-first CSS framework for rapid UI development
+- **SQLite and Prisma** - SQLite is a lightweight database, and Prisma is an ORM for database management
+
+<br />
 
 ## Getting Started
 
@@ -20,17 +34,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+<br />
 
-To learn more about Next.js, take a look at the following resources:
+## 📽 Project overview 
+![Create Next App](https://github.com/user-attachments/assets/a78e3a6d-e4d2-47de-aba1-1fe666b18585)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✅ Key Topics
 
-## Deploy on Vercel
+- **What is Next.js?** -  A framework for building server-side rendered React applications. Next.js provides benefits over regular React applications such as easier server-side rendering, automatic code splitting, and optimized performance
+- **Server Components** - How Next.js uses server-side rendering for better performance
+- **Routing** - Understanding file-based routing in Next.js
+- **Fetching Data** - Methods for retrieving data, including SSR and SSG
+- **Loading and Error** - Handling loading states and error boundaries
+- **Server Actions** - Performing server-side logic within Next.js
+- **API Routes** - Handling a variety of HTTP methods, in this project, using GET, POST
+- **Middleware** - Using middleware for request handling and redirects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
